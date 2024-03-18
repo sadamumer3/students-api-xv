@@ -1,0 +1,19 @@
+{
+  "name": "student-api-xv",
+  "version": "1.0.0",
+  "description": "My first nodeJs API - Mar 2022",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "supervisor index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "nodemon": "^2.0.15"
+  }
+}
